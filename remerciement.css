@@ -31,14 +31,12 @@ main{
     text-align: center;
 }
 
-.contenu_card_remerciement h1{
-    color: white;
-    margin: px;
-    font-size: 1.6rem;
-    font-family: "Merienda", cursive;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+.image_remerciement{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    margin: 15px;
 }
 
 .note_choisi{
@@ -59,12 +57,14 @@ main{
     font-style: normal;
 }
 
-.image_remerciement{
-    display: flex;
-    justify-content: center;
-    height: auto;
-    width: auto;
-    margin: 15px;
+.contenu_card_remerciement h1{
+    color: white;
+    margin: px;
+    font-size: 1.6rem;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .message_remerciement{
