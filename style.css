@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: black;
+}
+
+.container_notation_interactive{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.card_notation_interactive{
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 23%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenu_card{
+    padding: 20px;
+    width: 90%;
+}
+
+.note{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.button_note{
+    border: none;
+    color: rgb(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column-reverse;
+    text-align: center;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.etoile{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.etoile i{
+    font-size: 20px;
+}
+
+.container_button_envoyer{
+    display: flex;
+    justify-content: center;
+}
+
+.button_envoyer{
+    background-color: #ff741e;
+    border-radius: 20px;
+    padding: 5px;
+    width: 100%;
+    border: none;
+    color: white;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contenu_card p{
+    font-size: 15px;
+    color: #9CA6B3;
+    width: 100%;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.container_notation_interactive h2{
+    font-size: 15px;
+    color: rgb(255, 255, 255, 0.5);
+    margin-top: 10px;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.contenu_card h1{
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media (max-width: 768px) {
+    .card_notation_interactive{
+        width: 90%;
+    }
+    .note{
+        gap: 8px;
+    }
+    .button_note{
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+}

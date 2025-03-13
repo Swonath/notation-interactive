@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: black;
+}
+
+.container_notation_interactive{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.card_notation_interactive{
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 23%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenu_card_remerciement{
+    padding: 20px;
+    width: 90%;
+    text-align: center;
+}
+
+.contenu_card_remerciement h1{
+    color: white;
+    margin: px;
+    font-size: 1.6rem;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.note_choisi{
+    display: flex;
+    justify-content: center;
+}
+
+.texte_note_choisi{
+    background-color: rgb(255, 255, 255, 0.3);
+    width: 60%;
+    margin-top: 25px;
+    border-radius: 10px;
+    padding: 5px;
+    color: #ff741e;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.image_remerciement{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    margin: 15px;
+}
+
+.message_remerciement{
+    font-size: 15px;
+    color: #9CA6B3;
+    width: 100%;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.container_notation_interactive h2{
+    font-size: 15px;
+    color: rgb(255, 255, 255, 0.5);
+    margin-top: 10px;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+@media (max-width: 768px) {
+    .card_notation_interactive {
+        width: 90%; /* Réduit la taille de la carte sur les petits écrans */
+    }
+
+    .contenu_card_remerciement h1 {
+        font-size: 1.4rem; /* Réduit la taille du titre */
+    }
+
+    .texte_note_choisi {
+        width: 80%; /* Augmente la largeur de la note choisie */
+    }
+
+    .message_remerciement {
+        font-size: 14px; /* Réduit la taille du texte pour l'adapter aux petits écrans */
+    }
+
+    .container_notation_interactive h2 {
+        font-size: 12px; /* Réduit la taille du texte du codeur */
+    }
+}
+
+/* Médias Queries pour très petits écrans (téléphone en mode portrait) */
+@media (max-width: 480px) {
+    .contenu_card_remerciement h1 {
+        font-size: 1.2rem; /* Taille du titre encore plus petite */
+    }
+
+    .message_remerciement {
+        font-size: 12px; /* Taille du texte plus petite pour les petits écrans */
+    }
+
+    .texte_note_choisi {
+        width: 100%; /* La note choisie prend toute la largeur sur les très petits écrans */
+    }
+}
