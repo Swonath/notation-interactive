@@ -8,7 +8,7 @@ main{
     background-color: black;
 }
 
-.container_notation_interactive{
+.container-notation-interactive{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +16,7 @@ main{
     flex-direction: column;
 }
 
-.card_notation_interactive{
+.card-notation-interactive{
     background-color: rgba(255, 255, 255, 0.3);
     width: 23%;
     border-radius: 30px;
@@ -25,13 +25,13 @@ main{
     align-items: center;
 }
 
-.contenu_card_remerciement{
+.contenu-card-remerciement{
     padding: 20px;
     width: 90%;
     text-align: center;
 }
 
-.image_remerciement{
+.image-remerciement{
     display: flex;
     justify-content: center;
     height: auto;
@@ -39,87 +39,94 @@ main{
     margin: 15px;
 }
 
-.note_choisi{
+.note-choisi{
     display: flex;
     justify-content: center;
 }
 
-.texte_note_choisi{
-    background-color: rgb(255, 255, 255, 0.3);
-    width: 60%;
+.texte-note-choisi{
+    background-color: rgba(255, 116, 30, 0.1);
+    width: 70%;
     margin-top: 25px;
     border-radius: 10px;
     padding: 5px;
     color: #ff741e;
-    font-family: "Merienda", cursive;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-}
-
-.contenu_card_remerciement h1{
-    color: white;
-    margin: px;
-    font-size: 1.6rem;
-    font-family: "Merienda", cursive;
+    font-family: "Overpass", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
 
-.message_remerciement{
+.contenu-card-remerciement h1{
+    color: white;
+    margin: px;
+    font-size: 1.6rem;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.message-remerciement{
     font-size: 15px;
     color: #9CA6B3;
     width: 100%;
-    font-family: "Merienda", cursive;
+    font-family: "Overpass", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
+    }
+
+
+.footer-card{
+    margin-top: 10px;
 }
 
-.container_notation_interactive h2{
-    font-size: 15px;
-    color: rgb(255, 255, 255, 0.5);
-    margin-top: 10px;
-    font-family: "Merienda", cursive;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
+h2{
+    font-size: medium;
+    font-family: "Overpass", sans-serif;
+    font-weight: 400;
+    color: rgb(255, 255, 255, 0.3);
+}
+
+.souligne {
+    text-decoration: underline ;
+    color: hsl(216, 46%, 42%);
 }
 
 @media (max-width: 768px) {
-    .card_notation_interactive {
+    .card-notation-interactive {
         width: 90%; /* Réduit la taille de la carte sur les petits écrans */
     }
 
-    .contenu_card_remerciement h1 {
+    .contenu-card-remerciement h1 {
         font-size: 1.4rem; /* Réduit la taille du titre */
     }
 
-    .texte_note_choisi {
+    .texte-note-choisi {
         width: 80%; /* Augmente la largeur de la note choisie */
     }
 
-    .message_remerciement {
+    .message-remerciement {
         font-size: 14px; /* Réduit la taille du texte pour l'adapter aux petits écrans */
     }
 
-    .container_notation_interactive h2 {
+    .container-notation-interactive h2 {
         font-size: 12px; /* Réduit la taille du texte du codeur */
     }
 }
 
 /* Médias Queries pour très petits écrans (téléphone en mode portrait) */
 @media (max-width: 480px) {
-    .contenu_card_remerciement h1 {
+    .contenu-card-remerciement h1 {
         font-size: 1.2rem; /* Taille du titre encore plus petite */
     }
 
-    .message_remerciement {
+    .message-remerciement {
         font-size: 12px; /* Taille du texte plus petite pour les petits écrans */
     }
 
-    .texte_note_choisi {
+    .texte-note-choisi {
         width: 100%; /* La note choisie prend toute la largeur sur les très petits écrans */
     }
 }

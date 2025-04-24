@@ -8,7 +8,7 @@ main{
     background-color: black;
 }
 
-.container_notation_interactive{
+.container-notation-interactive{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +16,7 @@ main{
     flex-direction: column;
 }
 
-.card_notation_interactive{
+.card-notation-interactive{
     background-color: rgba(255, 255, 255, 0.3);
     width: 23%;
     border-radius: 30px;
@@ -25,7 +25,7 @@ main{
     align-items: center;
 }
 
-.contenu_card{
+.contenu-card{
     padding: 20px;
     width: 90%;
 }
@@ -44,24 +44,25 @@ main{
 
 .etoile i{
     font-size: 20px;
+    color: #ff741e;
 }
 
-.contenu_card h1{
+.contenu-card h1{
     font-size: 1.6rem;
     margin-bottom: 15px;
-    font-family: "Merienda", cursive;
+    font-family: "Overpass", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
 
-.contenu_card p{
+.contenu-card p{
     font-size: 15px;
     color: #9CA6B3;
     width: 100%;
-    font-family: "Merienda", cursive;
+    font-family: "Overpass", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -71,7 +72,7 @@ main{
     margin: 40px 0;
 }
 
-.button_note{
+.button-note{
     border: none;
     color: rgb(255, 255, 255, 0.3);
     background-color: rgba(255, 255, 255, 0.1);
@@ -84,50 +85,55 @@ main{
     align-items: center;
     flex-direction:column-reverse;
     text-align: center;
-    font-family: "Merienda", cursive;
+    font-family: "Overpass", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
 }
 
-.container_button_envoyer{
+.container-button-envoyer{
     display: flex;
     justify-content: center;
 }
 
-.button_envoyer{
+.button-envoyer{
     background-color: #ff741e;
     border-radius: 20px;
     padding: 5px;
     width: 100%;
     border: none;
     color: white;
-    font-family: "Merienda", cursive;
+    font-family: "Overpass", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
 
-.container_notation_interactive h2{
-    font-size: 15px;
-    color: rgb(255, 255, 255, 0.5);
+
+.footer-card{
     margin-top: 10px;
-    font-family: "Merienda", cursive;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
 }
 
+h2{
+    font-size: medium;
+    font-family: "Overpass", sans-serif;
+    font-weight: 400;
+    color: rgb(255, 255, 255, 0.3);
+}
 
+.souligne {
+    text-decoration: underline ;
+    color: hsl(216, 46%, 42%);
+}
 
 @media (max-width: 768px) {
-    .card_notation_interactive{
+    .card-notation-interactive{
         width: 90%;
     }
     .note{
         gap: 8px;
     }
-    .button_note{
+    .button-note{
         width: 40px;
         height: 40px;
         font-size: 16px;
